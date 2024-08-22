@@ -10,7 +10,7 @@
     <div class="col-8">
         <div class="d-flex">
             <h5>{{ animeCharacter.name }}</h5>
-        <h5 class="ms-auto ms-lg-3">❤️{{ animeCharacter.favorites }}</h5>
+        <h5 class="ms-auto">❤️{{ animeCharacter.favorites }}</h5>
         </div>
         <span v-for="(nickname,nicknameIndex) in animeCharacter.nicknames" :key="nickname+nicknameIndex" class="me-2 badge rounded-pill bg-info text-dark">{{ nickname }}</span>
     </div>
